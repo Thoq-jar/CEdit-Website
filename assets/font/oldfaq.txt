@@ -1,0 +1,12 @@
+<div class="section" id="section-4">
+        <div class="v-align mx-2 d-flex justify-content-center">
+          <div class="col-9 col-lg-4 faq">
+            <h1 class="fw-600 text-shadow fs-4r">FAQ</h1>
+            <h6 class="text-shadow text-uppercase spaced">
+              Frequently asked questions
+            </h6>
+            <hr class="text-shadow" />
+            <div class="accordion accordion-flush" id="acc-faq"></div>
+          </div>
+        </div>
+      </div>
