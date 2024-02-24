@@ -9,8 +9,20 @@
 
 body {
     background: rgb(45, 185, 240);
-    background: linear-gradient(120deg, rgba(45, 185, 240, 1) 0%, rgba(145, 158, 227, 1) 50%, rgba(243, 131, 215, 1) 100%) fixed;
-    background: -webkit-linear-gradient(120deg, rgba(45, 185, 240, 1) 0%, rgba(145, 158, 227, 1) 50%, rgba(243, 131, 215, 1) 100%) fixed;
+    background: linear-gradient(
+            120deg,
+            rgba(45, 185, 240, 1) 0%,
+            rgba(145, 158, 227, 1) 50%,
+            rgba(243, 131, 215, 1) 100%
+        )
+        fixed;
+    background: -webkit-linear-gradient(
+            120deg,
+            rgba(45, 185, 240, 1) 0%,
+            rgba(145, 158, 227, 1) 50%,
+            rgba(243, 131, 215, 1) 100%
+        )
+        fixed;
     background-attachment: fixed;
     font-family: "Greycliff CF", Arial, Helvetica, sans-serif;
     color: #fff;
@@ -130,7 +142,11 @@ h3 {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    background-image: linear-gradient(90deg, var(--color-primary), var(--color-secondary));
+    background-image: linear-gradient(
+        90deg,
+        var(--color-primary),
+        var(--color-secondary)
+    );
 }
 
 .text-shadow {
@@ -320,9 +336,13 @@ ul {
     #videos {
         max-height: 50vh;
         overflow: auto;
-    }    
+    }
 }
 
 .btn-close {
     z-index: 999;
+}
+
+.footer-logo {
+    text-align: center;
 }
